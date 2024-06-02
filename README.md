@@ -1,4 +1,5 @@
 # Tech Stack
+The artefact is a decentralized app (dApp) built using:
 - Hardhat (Ethereum development environment)
 - OpenZeppelin (smart contracts)
 - Ethers.js (web3 library)
