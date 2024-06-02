@@ -53,6 +53,8 @@ Has arrears on his/her mortgage repayments. Cannot maintain the current level of
 Borrower has a crypto asset to a value of €1100 and uses it as collateral to get a loan of €1000 + 10% interest. The user agrees the term of 11 months @ €100 per month. The borrower makes five payments of €100. During this period, the value of the collateralized asset drops to €600 and the borrower decides not to continue with the repayment of the loan. The €600 asset and the €500 paid in installments are reverted back to the lender. The circulation of the money will be in the form of stablecoins / CBDC tokens.
 ## Scope
 The scope of this is in France, Banque de France being the first central bank to launch an ambitious experimental programme on wholesale central bank digital currency (CBDC) for large-value payments in 2020 (Banque de France official website). The platform is designed so that it is not a digital bank but rather a payment intermediary where we act as the data controller and comply with consumer protection code (CPC). The lenders who will invest their stablecoins / CBDC tokens in the lending pool for a return which will be KYC verified including necessary details like wallet addresses etc. The borrowers will be verified by proofs of identity and wallet addresses alongside the Crypto asset they want to use as collateral. The present value of the Crypto asset is locked at the time of borrowing where the terms of payback will be set through smart contracts.
+
+Central Bank of France, Banque de France (Whitepaper): https://www.banque-france.fr/en/financial-stability/financial-stability-mandate/supporting-digital-transformation-financial-sector/wholesale-mnbc
 ## Stakeholders
 - Central Bank
 - Crypto asset holders
