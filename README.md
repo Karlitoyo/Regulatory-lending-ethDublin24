@@ -15,7 +15,12 @@ We have seen crypto owners sitting on their crypto assets and waiting for the pr
 - **KYC**: The lender and the borrower should be correctly identified and verified before deposting and withdrawing stablecoins / CBDC tokens / crypto-assets. 
 - **AML**: Anti-Money Laundering (AML) legislation ensures that the sources of money or funds are legitimate.
 - **CFT**: Combating Financing of Terrorism (CFT) legislation makes sure that the recipients of the 
-money or funds are not involved in terrorism. The system should verify that the circulation of stablecoins / CBDC tokens is made in the legitimate way. 
+money or funds are not involved in terrorism. The system should verify that the circulation of stablecoins / CBDC tokens is made in the legitimate way.
+## Risk Mitigation
+- Lending that uses volatile assets like cryptocurrencies or certain types of collateral inherently carries several risks. Like Collateral Depreciation Risk, Liquidity Risk and others. In order to mitigate the risks we have strategies and models to estimate potential asset depreciation and incorporate that risk into the loan interest rate to mitigate the risk of defaults due to collateral depreciation. A few such strategies are, Over-Collateralization, Automated Liquidation Mechanisms, Frequent Valuations and Margin Calls. 
+
+- Our Model would be Combining Historical Volatility with Moving Average: Combining both historical volatility and moving average methods provides a balanced view that accounts for short-term fluctuations and long-term trends.
+
 ## Flow of Artefact
 1. Lender deposits `stablecoins / CBDC tokens` into our platform and an `NFT` is generated as receipt.
 2. Borrower deposits his/her `crypto asset` as collateral to gain `stablecoins / CBDC` tokens and an `NFT` is generated as receipt.
@@ -39,7 +44,7 @@ The artefact is a decentralized app (dApp) built using:
 1. **Middle Income User**
 > Pain Points
 
-Difficulty meeting loan terms. Struggling with regular savings. However, posses a crypto asset with future value.
+Difficulty meeting loan terms. Struggling with regular savings.
 > Scenario
 
 User has a crypto asset but requires a loan to make a payment for a holiday in the form of stablecoin / CBDC token. User’s asset has the ability to rise in value in the short-to-medium term but the existing method to trade that asset lacks regulatory compliance and includes high fees to withdraw funds. Making use of DeFi and CBDC service, the user can trade his/her asset for a stablecoin / CBDC token  at an agreed amount, terms, rate of interest with blockchain-based regulated KYC. During the term of the loan, the value of the asset held as collateral increases to double. The user repays the loan in full including the interest and the asset is released.
@@ -47,7 +52,7 @@ User has a crypto asset but requires a loan to make a payment for a holiday in t
 2. **Low Income User**
 > Pain Points
 
-Has arrears on his/her mortgage repayments. Cannot maintain the current level of debt. But posses a crypto asset with future value.
+Has arrears on his/her mortgage repayments. Cannot maintain the current level of debt.
 > Scenario
 
 Borrower has a crypto asset to a value of €1100 and uses it as collateral to get a loan of €1000 + 10% interest. The user agrees the term of 11 months @ €100 per month. The borrower makes five payments of €100. During this period, the value of the collateralized asset drops to €600 and the borrower decides not to continue with the repayment of the loan. The €600 asset and the €500 paid in installments are reverted back to the lender. The circulation of the money will be in the form of stablecoins / CBDC tokens.
