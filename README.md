@@ -9,6 +9,8 @@ Our crypto lending platform aims to bridge the gap for individuals with Crypto a
 - Luthiano Trarbach
 ## Description
 Our DeFi platform is designed at its core to be simplistic and user friendly with the capability to allow borrowers and lenders to leverage their assets to create a decentralized platform releasing equity from assets held within the crypto eco-system with regulatory compliance such as KYC, AML and CFT. Currently individuals have a lengthy process to exit the market and in many instances do not wish to sell their positions for a loss; or for a perceived loss. Our DeFi platfrom will allow them to lock their crypto asset at present value for similar value in stablecoins / CBDC tokens and make regular payments to receive their assets back at the initial loan price plus interest. This creates a scenario whereby should the locked asset increase in value to a greater amount within the duration of the loan agreement, the borrower can realize the original value and take advantage of the increase in asset price once the loan + interest has been paid in full.
+## Business Problem
+We have seen crypto owners sitting on their crypto assets and waiting for the prices to go up and down without utilizing the true value of their assets. We open the possibility to use those crypto assets in exchange for stablecoins / CBDC (Central Bank Digital Currency) tokens, which then can be used to pay for products/services. By paying back the stablecoins / CBDC on agreeable terms, the owner gets to keep the full crypto asset.
 ## Flow of Artefact
 1. Lender deposits `stablecoins / CBDC tokens` into our platform and an `NFT` is generated as receipt.
 2. Borrower deposits his/her `crypto asset` as collateral to gain `stablecoins / CBDC` tokens and an `NFT` is generated as receipt.
@@ -44,6 +46,13 @@ Has arrears on his/her mortgage repayments. Cannot maintain the current level of
 > Scenario
 
 Borrower has a crypto asset to a value of €1100 and uses it as collateral to get a loan of €1000 + 10% interest. The user agrees the term of 11 months @ €100 per month. The borrower makes five payments of €100. During this period, the value of the collateralized asset drops to €600 and the borrower decides not to continue with the repayment of the loan. The €600 asset and the €500 paid in installments are reverted back to the lender. The circulation of the money will be in the form of stablecoins / CBDC tokens.
+## Scope
+The scope of this is in France, Banque de France being the first central bank to launch an ambitious experimental programme on wholesale central bank digital currency (CBDC) for large-value payments in 2020 (Banque de France official website). The platform is designed so that it is not a digital bank but rather a payment intermediary where we act as the data controller and comply with consumer protection code (CPC). The lenders who will invest their stablecoins / CBDC tokens in the lending pool for a return which will be KYC verified including necessary details like wallet addresses etc. The borrowers will be verified by proofs of identity and wallet addresses alongside the Crypto asset they want to use as collateral. The present value of the Crypto asset is locked at the time of borrowing where the terms of payback will be set through smart contracts.
+## Stakeholders
+- Central Bank
+- Crypto asset holders
+- Lenders
+- Other DeFi platform providers
 ## Architecture Diagram
 ![package drawio](https://github.com/Karlitoyo/Regulatory-lending-ethDublin24/assets/73027299/58846b0a-1d53-4e7a-a9f9-3cafa7c643c3)
 ## Use Case Diagram
