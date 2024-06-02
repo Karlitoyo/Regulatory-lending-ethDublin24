@@ -5,6 +5,12 @@
 4. Regulatory compliance such as `KYC, AML and CFT` is being done using `smart contracts` and `multi-chain blockchain`.
 5. Borrower is given the required `loan` in the form of stablecoins / CBDC tokens on `agreed terms`.
 6. Lender gets his/her deposited tokens back with some `interest` after agreed terms.
+# Features in Artefact
+MetaMask wallet is used to confirm transactions and sign messgages.
+1. We have utilized [EIP-20](https://eips.ethereum.org/EIPS/eip-20) as our fungible token standard. Our Stablecoins / CBDC tokens exist as ERC20 tokens.
+2. We have utilized [EIP-721](https://eips.ethereum.org/EIPS/eip-721) as our non-fungible token standard. 
+3. We have utilized [EIP-7377](https://eips.ethereum.org/EIPS/eip-7377) as our account abstraction standard.
+3. We have utilized [EIP-1271](https://eips.ethereum.org/EIPS/eip-1271) as our signature validation standard.
 # Tech Stack
 The artefact is a decentralized app (dApp) built using:
 - Hardhat (Ethereum development environment)
