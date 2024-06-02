@@ -39,7 +39,7 @@ The artefact is a decentralized app (dApp) built using:
 1. **Middle Income User**
 > Pain Points
 
-Difficulty meeting loan terms. Struggling with regular savings.
+Difficulty meeting loan terms. Struggling with regular savings. However, posses a crypto asset with future value.
 > Scenario
 
 User has a crypto asset but requires a loan to make a payment for a holiday in the form of stablecoin / CBDC token. User’s asset has the ability to rise in value in the short-to-medium term but the existing method to trade that asset lacks regulatory compliance and includes high fees to withdraw funds. Making use of DeFi and CBDC service, the user can trade his/her asset for a stablecoin / CBDC token  at an agreed amount, terms, rate of interest with blockchain-based regulated KYC. During the term of the loan, the value of the asset held as collateral increases to double. The user repays the loan in full including the interest and the asset is released.
@@ -47,7 +47,7 @@ User has a crypto asset but requires a loan to make a payment for a holiday in t
 2. **Low Income User**
 > Pain Points
 
-Has arrears on his/her mortgage repayments. Cannot maintain the current level of debt.
+Has arrears on his/her mortgage repayments. Cannot maintain the current level of debt. But posses a crypto asset with future value.
 > Scenario
 
 Borrower has a crypto asset to a value of €1100 and uses it as collateral to get a loan of €1000 + 10% interest. The user agrees the term of 11 months @ €100 per month. The borrower makes five payments of €100. During this period, the value of the collateralized asset drops to €600 and the borrower decides not to continue with the repayment of the loan. The €600 asset and the €500 paid in installments are reverted back to the lender. The circulation of the money will be in the form of stablecoins / CBDC tokens.
