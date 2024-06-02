@@ -11,6 +11,11 @@ Our crypto lending platform aims to bridge the gap for individuals with Crypto a
 Our DeFi platform is designed at its core to be simplistic and user friendly with the capability to allow borrowers and lenders to leverage their assets to create a decentralized platform releasing equity from assets held within the crypto eco-system with regulatory compliance such as KYC, AML and CFT. Currently individuals have a lengthy process to exit the market and in many instances do not wish to sell their positions for a loss; or for a perceived loss. Our DeFi platfrom will allow them to lock their crypto asset at present value for similar value in stablecoins / CBDC tokens and make regular payments to receive their assets back at the initial loan price plus interest. This creates a scenario whereby should the locked asset increase in value to a greater amount within the duration of the loan agreement, the borrower can realize the original value and take advantage of the increase in asset price once the loan + interest has been paid in full.
 ## Business Problem
 We have seen crypto owners sitting on their crypto assets and waiting for the prices to go up and down without utilizing the true value of their assets. We open the possibility to use those crypto assets in exchange for stablecoins / CBDC (Central Bank Digital Currency) tokens, which then can be used to pay for products/services. By paying back the stablecoins / CBDC on agreeable terms, the owner gets to keep the full crypto asset.
+## Regulatory Compliance
+- **KYC**: The lender and the borrower should be correctly identified and verified before deposting and withdrawing stablecoins / CBDC tokens / crypto-assets. 
+- **AML**: Anti-Money Laundering (AML) legislation ensures that the sources of money or funds are legitimate.
+- **CFT**: Combating Financing of Terrorism (CFT) legislation makes sure that the recipients of the 
+money or funds are not involved in terrorism. The system should verify that the circulation of stablecoins / CBDC tokens is made in the legitimate way. 
 ## Flow of Artefact
 1. Lender deposits `stablecoins / CBDC tokens` into our platform and an `NFT` is generated as receipt.
 2. Borrower deposits his/her `crypto asset` as collateral to gain `stablecoins / CBDC` tokens and an `NFT` is generated as receipt.
@@ -53,6 +58,10 @@ The scope of this is in France, Banque de France being the first central bank to
 - Crypto asset holders
 - Lenders
 - Other DeFi platform providers
+## Business Outcomes
+- Secure interaction between borrowers and lenders
+- Transparency and Regulatory compliance
+- Integration with other DeFi platforms and central banks
 ## Architecture Diagram
 ![package drawio](https://github.com/Karlitoyo/Regulatory-lending-ethDublin24/assets/73027299/58846b0a-1d53-4e7a-a9f9-3cafa7c643c3)
 ## Use Case Diagram
