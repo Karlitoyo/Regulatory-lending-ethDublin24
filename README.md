@@ -1,5 +1,6 @@
 # ReguLend
 Our crypto lending platform aims to bridge the gap for individuals with Crypto assets who might not be able to secure traditional loans due to poor credit scores. By leveraging the value of their crypto assets, we provide a new pathway for these individuals to access necessary funds as stablecoins / CBDC tokens and overcoming the barriers imposed by traditional lending institutions.
+
 ## Team
 - Karl Timmins
 - Faran Khan
@@ -7,15 +8,23 @@ Our crypto lending platform aims to bridge the gap for individuals with Crypto a
 - Harsha
 - Mustafa Kamal
 - Luthiano Trarbach
+
 ## Description
 Our DeFi platform is designed at its core to be simplistic and user friendly with the capability to allow borrowers and lenders to leverage their assets to create a decentralized platform releasing equity from assets held within the crypto eco-system with regulatory compliance such as KYC, AML and CFT. Currently individuals have a lengthy process to exit the market and in many instances do not wish to sell their positions for a loss; or for a perceived loss. Our DeFi platfrom will allow them to lock their crypto asset at present value for similar value in stablecoins / CBDC tokens and make regular payments to receive their assets back at the initial loan price plus interest. This creates a scenario whereby should the locked asset increase in value to a greater amount within the duration of the loan agreement, the borrower can realize the original value and take advantage of the increase in asset price once the loan + interest has been paid in full.
+
 ## Business Problem
 We have seen crypto owners sitting on their crypto assets and waiting for the prices to go up and down without utilizing the true value of their assets. We open the possibility to use those crypto assets in exchange for stablecoins / CBDC (Central Bank Digital Currency) tokens, which then can be used to pay for products/services. By paying back the stablecoins / CBDC on agreeable terms, the owner gets to keep the full crypto asset.
+
 ## Regulatory Compliance
 - **KYC**: The lender and the borrower should be correctly identified and verified before deposting and withdrawing stablecoins / CBDC tokens / crypto-assets. 
 - **AML**: Anti-Money Laundering (AML) legislation ensures that the sources of money or funds are legitimate.
 - **CFT**: Combating Financing of Terrorism (CFT) legislation makes sure that the recipients of the 
-money or funds are not involved in terrorism. The system should verify that the circulation of stablecoins / CBDC tokens is made in the legitimate way. 
+money or funds are not involved in terrorism. The system should verify that the circulation of stablecoins / CBDC tokens is made in the legitimate way.
+
+## Risk Mitigation
+- Lending that uses volatile assets like cryptocurrencies or certain types of collateral inherently carries several risks. Like Collateral Depreciation Risk, Liquidity Risk and others. In order to mitigate the risks we have strategies and models to estimate potential asset depreciation and incorporate that risk into the loan interest rate to mitigate the risk of defaults due to collateral depreciation. A few such strategies are, Over-Collateralization, Automated Liquidation Mechanisms, Frequent Valuations and Margin Calls. 
+- Our Model would be Combining Historical Volatility with Moving Average: Combining both historical volatility and moving average methods provides a balanced view that accounts for short-term fluctuations and long-term trends.
+
 ## Flow of Artefact
 1. Lender deposits `stablecoins / CBDC tokens` into our platform and an `NFT` is generated as receipt.
 2. Borrower deposits his/her `crypto asset` as collateral to gain `stablecoins / CBDC` tokens and an `NFT` is generated as receipt.
@@ -23,18 +32,21 @@ money or funds are not involved in terrorism. The system should verify that the 
 4. Regulatory compliance such as `KYC, AML and CFT` is being done using `smart contracts` and `multi-chain blockchain`.
 5. Borrower is given the required `loan` in the form of stablecoins / CBDC tokens on `agreed terms`.
 6. Lender gets his/her deposited tokens back with some `interest` after agreed terms.
+
 ## Features in Artefact
 MetaMask wallet is used to confirm transactions and sign messgages.
 1. We have utilized [EIP-20](https://eips.ethereum.org/EIPS/eip-20) as our fungible token standard. Our Stablecoins / CBDC tokens exist as ERC20 tokens.
 2. We have utilized [EIP-721](https://eips.ethereum.org/EIPS/eip-721) as our non-fungible token standard. 
 3. We have utilized [EIP-7377](https://eips.ethereum.org/EIPS/eip-7377) as our account abstraction standard.
 3. We have utilized [EIP-1271](https://eips.ethereum.org/EIPS/eip-1271) as our signature validation standard.
+
 ## Tech Stack
 The artefact is a decentralized app (dApp) built using:
 - Hardhat (Ethereum development environment)
 - OpenZeppelin (smart contracts)
 - Ethers.js (web3 library)
 - React.js (frontend library)
+
 ## User Stories
 1. **Middle Income User**
 > Pain Points
