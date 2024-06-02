@@ -1,3 +1,8 @@
+# Tech Stack
+- Hardhat (Ethereum development environment)
+- OpenZeppelin (smart contracts)
+- Ethers.js (web3 library)
+- React.js (frontend library)
 # Architecture Diagram
 ![package drawio](https://github.com/Karlitoyo/Regulatory-lending-ethDublin24/assets/73027299/58846b0a-1d53-4e7a-a9f9-3cafa7c643c3)
 # Use Case Diagram
